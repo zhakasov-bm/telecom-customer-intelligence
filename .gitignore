@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Environment
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/raw/*
+data/processed/*
+
+# Models
+artifacts/*
+
+# Tools
+.pytest_cache/
+.ruff_cache/
+mlruns/
+
+# macOS
+.DS_Store
