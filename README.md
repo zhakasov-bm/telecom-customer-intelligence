@@ -25,3 +25,21 @@ IBM Telco Customer Churn Dataset.
 ## Project Status
 
 In Development
+
+## Data Architecture
+
+The project implements a three-layer data architecture:
+
+- Bronze (raw): original customer data.
+- Silver (staging): cleaned and validated customer data.
+- Gold (analytics): business-ready SQL views.
+
+## Data Quality
+
+- Missing value handling
+- Duplicate detection
+- Data type conversion
+- Schema validation
+- Business rule validation
+- Record count verification
+- Automated unit tests
